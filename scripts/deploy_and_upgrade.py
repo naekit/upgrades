@@ -44,4 +44,4 @@ def main():
     proxy_box = Contract.from_abi("BoxV2", proxy.address, BoxV2.abi)
     proxy_box.increment({"from": account})
     print(proxy_box.retrieve())
-    # upgrade()
+    # upgrade() function
